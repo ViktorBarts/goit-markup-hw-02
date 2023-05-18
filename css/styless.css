@@ -1,17 +1,21 @@
-/* webstudio*/
-
-body {
-  font-family: open roboto, sans-serif;
-  font-size: 12px;
+:root {
   background-color: #ffffff;
 }
+/* webstudio*/
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #434455;
+}
 /* header*/
-.header {
+.main-header {
 }
-.header-navigation {
+.main-navigation {
 }
-.logo-link {
-  font-family: "Raleway";
+.logo link {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -19,9 +23,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-color {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -30,15 +35,17 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.header-list {
+.menu list {
+  list-style: none;
 }
-.header-item {
+.menu-item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .header-address {
 }
@@ -168,7 +175,7 @@ body {
   color: #f4f4fd;
 }
 .logo-link-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -176,9 +183,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-color-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -186,6 +194,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  text-decoration: none;
 }
 /*portfolio*/
 
