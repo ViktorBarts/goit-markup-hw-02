@@ -1,25 +1,27 @@
 :root {
-  background-color: #ffffff;
+  color: #ffffff;
+  color: #404bbf;
+  color: #4d5ae5;
+  color: #2e2f42;
+  color: #434455;
+  color: #f4f4fd;
 }
 /* webstudio*/
 
 body {
-  font-family: "open roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 .list {
-list-style: none;
+  list-style: none;
 }
 /* header*/
-.main-header {
-}
-.main-navigation {
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -40,19 +42,17 @@ list-style: none;
   text-transform: uppercase;
   color: #2e2f42;
 }
-.menu {
 
-}
 .menu-link {
   color: #2e2f42;
 }
 
 .menu-link:hover {
-color: #404bbf
+  color: #404bbf;
 }
 
 .menu-link:focus {
-color: #404bbf
+  color: #404bbf;
 }
 
 .menu-item {
@@ -67,8 +67,7 @@ color: #404bbf
 .header-address {
   font-style: normal;
 }
-.header-address-list {
-}
+
 .adress-itim-mail {
   font-style: normal;
   font-weight: 400;
@@ -100,30 +99,23 @@ color: #404bbf
   text-align: center;
 }
 .hero-btn {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   background: #4d5ae5;
   letter-spacing: 0.04em;
-  cursor: pointer 
+  cursor: pointer;
 }
 .hero-btn:hover {
-background-color: #404BBF
+  background-color: #404bbf;
 }
-.hero-btn:focus{
-background-color: #404BBF
-
-
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 /* about */
-.about {
-}
-.about-list {
-}
-.about-list-item {
-}
+
 .about-title {
   font-family: "Roboto";
   font-style: normal;
@@ -137,14 +129,12 @@ background-color: #404BBF
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
 }
 /*project*/
-.project {
-}
+
 .project-title {
   font-style: normal;
   font-weight: 700;
@@ -153,12 +143,9 @@ background-color: #404BBF
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  text-align: center
+  text-align: center;
 }
-.project-list {
-}
-.project-list-item {
-}
+
 /*team*/
 .team {
   background: #f4f4fd;
@@ -168,15 +155,14 @@ background-color: #404BBF
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list {
-}
+
 .taem-list-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .team-name {
   font-style: normal;
@@ -190,7 +176,7 @@ background-color: #404BBF
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -230,11 +216,8 @@ background-color: #404BBF
 }
 /*portfolio*/
 
-.btn-set {
-
-}
 .btn-text {
-  font-family: "Roboto", sans-serif 
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -242,22 +225,18 @@ background-color: #404BBF
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
-  cursor: pointer
+  cursor: pointer;
 }
 .btn-text:hover {
-color: #404bbf;
+  color: #404bbf;
 }
 .btn-text:focus {
-color: #404bbf;
-}
-.case {
+  color: #404bbf;
 }
 .case-list {
-  list-style: none
+  list-style: none;
 }
-.case-list-item {
-  
-}
+
 .case-title {
   font-family: "Roboto";
   font-style: normal;
