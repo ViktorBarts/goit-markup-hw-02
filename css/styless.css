@@ -2,6 +2,7 @@
   --title-color: #ffffff;
   --text-color: #4d5ae5;
   --heder-color: #434455;
+  --item-color: #2e2f42;
 }
 /* webstudio*/
 
@@ -64,22 +65,19 @@ body {
 .header-address{
   font-style: normal;
 }
-
-.contact-link{
-  font-style: normal;
-  font-weight: 400;
+.header-address-link{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--heder-color);
+  color:var(--item-color)
+}
+.header-address-link:hover{
+  color: #404bbf;
+}
+.header-address-link:focus{
+  color: #404bbf;
 }
 
-.contact-link:hover {
-  color: #404bbf;
-}
-.contact-link:focus {
-  color: #404bbf;
-}
 
 /* hero */
 .hero {
