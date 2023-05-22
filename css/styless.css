@@ -61,19 +61,11 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.header-address {
+.header-address{
   font-style: normal;
 }
 
-.adress-itim-mail {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--heder-color);
-}
-.adress-itim-tel{
+.contact link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -82,10 +74,10 @@ body {
   color: var(--heder-color);
 }
 
-.header-address-list:hover {
+.contact link:hover {
   color: #404bbf;
 }
-.header-address-list:focus {
+.contact link:focus {
   color: #404bbf;
 }
 
