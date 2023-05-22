@@ -65,7 +65,7 @@ body {
   font-style: normal;
 }
 
-.contact link {
+.contact-link{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -74,10 +74,10 @@ body {
   color: var(--heder-color);
 }
 
-.contact link:hover {
+.contact-link:hover {
   color: #404bbf;
 }
-.contact link:focus {
+.contact-link:focus {
   color: #404bbf;
 }
 
