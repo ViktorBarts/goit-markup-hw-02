@@ -61,11 +61,11 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.address {
+.header-address {
   font-style: normal;
 }
 
-.header-contacts-item {
+.adress-itim-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -73,10 +73,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--heder-color);
 }
-.header-contacts:hover {
+.adress-itim-tel{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--heder-color);
+}
+
+.header-address-list:hover {
   color: #404bbf;
 }
-.header-contacts:focus {
+.header-address-list:focus {
   color: #404bbf;
 }
 
@@ -159,6 +168,9 @@ body {
 
 .team-list {
   background-color: #ffffff;
+}
+.team-list-item {
+  background-color: #FFFFFF
 }
 .team-name {
   font-style: normal;
